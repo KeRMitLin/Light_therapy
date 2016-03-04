@@ -1,0 +1,2 @@
+/Users/KeRMitLin/AndroidStudioProjects/Light_therapy/app/build/intermediates/classes/debug
+/Users/KeRMitLin/AndroidStudioProjects/Light_therapy/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-ace7db5516dadab6cd05e75bb3b56e2178edaf3d.jar

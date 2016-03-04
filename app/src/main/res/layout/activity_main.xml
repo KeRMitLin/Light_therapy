@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:id="@+id/Linear_1"
+    	android:layout_width="fill_parent"
+   	 	android:layout_height="wrap_content"
+   	 	android:layout_marginTop="5dp">
+    
+	    <TextView
+	        android:id="@+id/inner_text"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginRight="5dp"
+	        android:textColor="@color/white"
+	        android:textSize="35dp"
+	        android:text="請選擇功能" />
+	    
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/Linear_2"
+    	android:layout_width="match_parent"
+   	 	android:layout_height="wrap_content"
+   	 	android:layout_below="@+id/Linear_1"
+   	 	android:layout_marginTop="2dp">
+	
+	    <Button
+	        android:id="@+id/bt_in1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="100dp"
+	        android:gravity="center"
+	        android:layout_marginLeft="8dp"
+	        android:layout_marginRight="8dp"
+	        android:layout_marginBottom="1dp"
+	        android:background="@drawable/dialogue_but"
+	        android:textColor="@color/white"
+	        android:textSize="35dp"
+	        android:text="開始療程" />
+    
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/Linear_3"
+    	android:layout_width="match_parent"
+   	 	android:layout_height="wrap_content"
+   	 	android:layout_below="@+id/Linear_2"
+   	 	android:layout_marginTop="1dp">
+	
+	    <Button
+	        android:id="@+id/bt_in2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="100dp"
+	        android:gravity="center"
+	        android:layout_marginLeft="8dp"
+	        android:layout_marginRight="8dp"
+	        android:layout_marginBottom="1dp"
+	        android:background="@drawable/dialogue_but"
+	        android:textColor="@color/white"
+	        android:textSize="35dp"
+	        android:text="設定療程" />
+    
+    </LinearLayout>
+    
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/dialogue_bg"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:id="@+id/Linear_1"
+    	android:layout_width="fill_parent"
+   	 	android:layout_height="wrap_content"
+   	 	android:orientation="vertical"
+   	 	android:layout_marginTop="5dp">
+    
+	    <TextView
+	        android:id="@+id/inner_text"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginRight="5dp"
+	        android:textColor="@color/white"
+	        android:textSize="30dp" />
+    </LinearLayout>
+    
+	<LinearLayout 
+        android:id="@+id/Linear_2"
+    	android:layout_width="wrap_content"
+   	 	android:layout_height="wrap_content"
+   	 	android:layout_below="@+id/Linear_1"
+   	 	android:orientation="horizontal"
+   	 	android:layout_centerHorizontal="true"
+   	 	android:layout_marginTop="5dp">
+
+	    <EditText
+	        android:id="@+id/editText1"
+	        android:layout_width="150dp"
+	        android:layout_height="wrap_content"
+	        android:singleLine="true"
+	        android:inputType="phone"
+	        android:password="true"
+	        android:textSize="30dp">
+	    </EditText>
+	    
+	</LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/Linear_3"
+    	android:layout_width="match_parent"
+   	 	android:layout_height="wrap_content"
+   	 	android:layout_below="@+id/Linear_2"
+   	 	android:layout_marginTop="5dp">
+	
+	    <Button
+	        android:id="@+id/bt_in1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="90dp"
+	        android:gravity="center"
+	        android:layout_marginLeft="8dp"
+	        android:layout_marginRight="8dp"
+	        android:layout_marginBottom="8dp"
+	        android:background="@drawable/dialogue_but"
+	        android:textColor="@color/white"
+	        android:textSize="30dp" />
+	</LinearLayout>
+
+</RelativeLayout><!-- From: file:/Users/KeRMitLin/AndroidStudioProjects/Light_therapy/app/src/main/res/layout/custom_dialog_pass.xml -->

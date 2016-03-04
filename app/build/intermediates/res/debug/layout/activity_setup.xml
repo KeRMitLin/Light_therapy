@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:id="@+id/Linear_1"
+    	android:layout_width="fill_parent"
+   	 	android:layout_height="wrap_content"
+   	 	android:layout_marginTop="5dp">
+    
+	    <TextView
+	        android:id="@+id/inner_text"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginRight="5dp"
+	        android:textColor="@color/white"
+	        android:textSize="35dp"
+	        android:text="請選擇本次療程的階段數" />
+	    
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/Linear_2"
+    	android:layout_width="match_parent"
+   	 	android:layout_height="wrap_content"
+   	 	android:weightSum="1.0"
+   	 	android:layout_below="@+id/Linear_1"
+   	 	android:layout_marginTop="2dp">
+	
+	    <Button
+	        android:id="@+id/bt_in1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="100dp"
+	        android:gravity="center"
+	        android:layout_marginLeft="8dp"
+	        android:layout_marginRight="1dp"
+	        android:layout_marginBottom="1dp"
+	        android:layout_weight=".333"
+	        android:background="@drawable/dialogue_but"
+	        android:textColor="@color/white"
+	        android:textSize="35dp"
+	        android:text="1段" />
+	    
+	    <Button
+	        android:id="@+id/bt_in2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="100dp"
+	        android:gravity="center"
+	        android:layout_marginLeft="1dp"
+	        android:layout_marginRight="1dp"
+	        android:layout_marginBottom="1dp"
+	        android:layout_weight=".334"
+	        android:background="@drawable/dialogue_but"
+	        android:textColor="@color/white"
+	        android:textSize="35dp"
+	        android:text="2段" />
+	    
+	    <Button
+	        android:id="@+id/bt_in3"
+	        android:layout_width="fill_parent"
+	        android:layout_height="100dp"
+	        android:gravity="center"
+	        android:layout_marginLeft="1dp"
+	        android:layout_marginRight="8dp"
+	        android:layout_marginBottom="1dp"
+	        android:layout_weight=".333"
+	        android:background="@drawable/dialogue_but"
+	        android:textColor="@color/white"
+	        android:textSize="35dp"
+	        android:text="3段" />
+    
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/Linear_3"
+    	android:layout_width="match_parent"
+   	 	android:layout_height="wrap_content"
+   	 	android:weightSum="1.0"
+   	 	android:layout_below="@+id/Linear_2"
+   	 	android:layout_marginTop="1dp">
+	
+	    <Button
+	        android:id="@+id/bt_in4"
+	        android:layout_width="fill_parent"
+	        android:layout_height="100dp"
+	        android:gravity="center"
+	        android:layout_marginLeft="8dp"
+	        android:layout_marginRight="1dp"
+	        android:layout_marginBottom="1dp"
+	        android:layout_weight=".333"
+	        android:background="@drawable/dialogue_but"
+	        android:textColor="@color/white"
+	        android:textSize="35dp"
+	        android:text="4段" />
+	    
+	    <Button
+	        android:id="@+id/bt_in5"
+	        android:layout_width="fill_parent"
+	        android:layout_height="100dp"
+	        android:gravity="center"
+	        android:layout_marginLeft="1dp"
+	        android:layout_marginRight="1dp"
+	        android:layout_marginBottom="1dp"
+	        android:layout_weight=".334"
+	        android:background="@drawable/dialogue_but"
+	        android:textColor="@color/white"
+	        android:textSize="35dp"
+	        android:text="5段" />
+	    
+	    <Button
+	        android:id="@+id/bt_in6"
+	        android:layout_width="fill_parent"
+	        android:layout_height="100dp"
+	        android:gravity="center"
+	        android:layout_marginLeft="1dp"
+	        android:layout_marginRight="8dp"
+	        android:layout_marginBottom="1dp"
+	        android:layout_weight=".333"
+	        android:background="@drawable/dialogue_but"
+	        android:textColor="@color/white"
+	        android:textSize="35dp"
+	        android:text="6段" />
+    
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/Linear_4"
+    	android:layout_width="match_parent"
+   	 	android:layout_height="wrap_content"
+   	 	android:weightSum="1.0"
+   	 	android:layout_below="@+id/Linear_3"
+   	 	android:layout_marginTop="1dp">
+	
+	    <Button
+	        android:id="@+id/bt_in7"
+	        android:layout_width="fill_parent"
+	        android:layout_height="100dp"
+	        android:gravity="center"
+	        android:layout_marginLeft="8dp"
+	        android:layout_marginRight="1dp"
+	        android:layout_marginBottom="1dp"
+	        android:layout_weight=".333"
+	        android:background="@drawable/dialogue_but"
+	        android:textColor="@color/white"
+	        android:textSize="35dp"
+	        android:text="7段" />
+	    
+	    <Button
+	        android:id="@+id/bt_in8"
+	        android:layout_width="fill_parent"
+	        android:layout_height="100dp"
+	        android:gravity="center"
+	        android:layout_marginLeft="1dp"
+	        android:layout_marginRight="1dp"
+	        android:layout_marginBottom="1dp"
+	        android:layout_weight=".334"
+	        android:background="@drawable/dialogue_but"
+	        android:textColor="@color/white"
+	        android:textSize="35dp"
+	        android:text="8段" />
+	    
+	    <Button
+	        android:id="@+id/bt_in9"
+	        android:layout_width="fill_parent"
+	        android:layout_height="100dp"
+	        android:gravity="center"
+	        android:layout_marginLeft="1dp"
+	        android:layout_marginRight="8dp"
+	        android:layout_marginBottom="1dp"
+	        android:layout_weight=".333"
+	        android:background="@drawable/dialogue_but"
+	        android:textColor="@color/white"
+	        android:textSize="35dp"
+	        android:text="9段" />
+    
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/Linear_5"
+    	android:layout_width="match_parent"
+   	 	android:layout_height="wrap_content"
+   	 	android:weightSum="1.0"
+   	 	android:layout_below="@+id/Linear_4"
+   	 	android:layout_marginTop="1dp">
+	
+	    <Button
+	        android:id="@+id/bt_in10"
+	        android:layout_width="fill_parent"
+	        android:layout_height="100dp"
+	        android:gravity="center"
+	        android:layout_marginLeft="8dp"
+	        android:layout_marginRight="1dp"
+	        android:layout_marginBottom="8dp"
+	        android:layout_weight=".333"
+	        android:background="@drawable/dialogue_but"
+	        android:textColor="@color/white"
+	        android:textSize="35dp"
+	        android:text="10段" />
+	    
+	    <Button
+	        android:id="@+id/bt_in11"
+	        android:layout_width="fill_parent"
+	        android:layout_height="100dp"
+	        android:gravity="center"
+	        android:layout_marginLeft="1dp"
+	        android:layout_marginRight="1dp"
+	        android:layout_marginBottom="8dp"
+	        android:layout_weight=".334"
+	        android:background="@drawable/dialogue_but"
+	        android:textColor="@color/white"
+	        android:textSize="35dp"
+	        android:text="11段" />
+	    
+	    <Button
+	        android:id="@+id/bt_in12"
+	        android:layout_width="fill_parent"
+	        android:layout_height="100dp"
+	        android:gravity="center"
+	        android:layout_marginLeft="1dp"
+	        android:layout_marginRight="8dp"
+	        android:layout_marginBottom="8dp"
+	        android:layout_weight=".333"
+	        android:background="@drawable/dialogue_but"
+	        android:textColor="@color/white"
+	        android:textSize="35dp"
+	        android:text="12段" />
+    
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/Users/KeRMitLin/AndroidStudioProjects/Light_therapy/app/src/main/res/layout/activity_setup.xml -->

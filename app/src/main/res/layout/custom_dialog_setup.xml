@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/dialogue_bg"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:id="@+id/Linear_1"
+    	android:layout_width="fill_parent"
+   	 	android:layout_height="wrap_content"
+   	 	android:orientation="vertical"
+   	 	android:layout_marginTop="5dp">
+    
+	    <TextView
+	        android:id="@+id/inner_text"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginRight="5dp"
+	        android:textColor="@color/white"
+	        android:textSize="30dp" />
+	    
+	    <TextView
+	        android:id="@+id/inner_text2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginRight="5dp"
+	        android:textColor="@color/white"
+	        android:textSize="25dp"
+	        android:text="顏色：" />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/Linear_2"
+    	android:layout_width="match_parent"
+   	 	android:layout_height="wrap_content"
+   	 	android:weightSum="1.0"
+   	 	android:layout_below="@+id/Linear_1"
+   	 	android:layout_marginTop="2dp">
+	
+	    <Button
+	        android:id="@+id/bt_in1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="80dp"
+	        android:gravity="center"
+	        android:layout_marginLeft="8dp"
+	        android:layout_marginRight="1dp"
+	        android:layout_marginBottom="1dp"
+	        android:layout_weight=".333"
+	        android:background="@drawable/dialogue_but"
+	        android:textColor="@color/red"
+	        android:textSize="35dp"
+	        android:text="紅色" />
+	    
+	    <Button
+	        android:id="@+id/bt_in2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="80dp"
+	        android:gravity="center"
+	        android:layout_marginLeft="1dp"
+	        android:layout_marginRight="1dp"
+	        android:layout_marginBottom="1dp"
+	        android:layout_weight=".334"
+	        android:background="@drawable/dialogue_but"
+	        android:textColor="@color/white"
+	        android:textSize="35dp"
+	        android:text="白色" />
+	    
+	    <Button
+	        android:id="@+id/bt_in3"
+	        android:layout_width="fill_parent"
+	        android:layout_height="80dp"
+	        android:gravity="center"
+	        android:layout_marginLeft="1dp"
+	        android:layout_marginRight="8dp"
+	        android:layout_marginBottom="1dp"
+	        android:layout_weight=".333"
+	        android:background="@drawable/dialogue_but"
+	        android:textColor="@color/blue"
+	        android:textSize="35dp"
+	        android:text="藍色" />
+    
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/Linear_3"
+    	android:layout_width="match_parent"
+   	 	android:layout_height="wrap_content"
+   	 	android:weightSum="1.0"
+   	 	android:layout_below="@+id/Linear_2"
+   	 	android:layout_marginTop="1dp">
+	
+	    <Button
+	        android:id="@+id/bt_in4"
+	        android:layout_width="fill_parent"
+	        android:layout_height="80dp"
+	        android:gravity="center"
+	        android:layout_marginLeft="8dp"
+	        android:layout_marginRight="1dp"
+	        android:layout_marginBottom="8dp"
+	        android:layout_weight=".50"
+	        android:background="@drawable/dialogue_but"
+	        android:textColor="@color/yellow"
+	        android:textSize="35dp"
+	        android:text="黃色" />
+	    
+	    <Button
+	        android:id="@+id/bt_in5"
+	        android:layout_width="fill_parent"
+	        android:layout_height="80dp"
+	        android:gravity="center"
+	        android:layout_marginLeft="1dp"
+	        android:layout_marginRight="8dp"
+	        android:layout_marginBottom="8dp"
+	        android:layout_weight=".50"
+	        android:background="@drawable/dialogue_but"
+	        android:textColor="@color/green"
+	        android:textSize="35dp"
+	        android:text="綠色" />
+    
+    </LinearLayout>
+    
+	<LinearLayout 
+        android:id="@+id/Linear_4"
+    	android:layout_width="wrap_content"
+   	 	android:layout_height="wrap_content"
+   	 	android:layout_below="@+id/Linear_3"
+   	 	android:orientation="horizontal"
+   	 	android:layout_centerHorizontal="true"
+   	 	android:layout_marginTop="5dp">
+	        
+	    <TextView
+	        android:id="@+id/inner_text3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginRight="5dp"
+	        android:textColor="@color/white"
+	        android:textSize="25dp"
+	        android:text="頻率(Hz)：" />
+
+	    <EditText
+	        android:id="@+id/editText1"
+	        android:layout_width="50dp"
+	        android:layout_height="wrap_content"
+	        android:singleLine="true"
+	        android:inputType="phone"
+	        android:textSize="25dp"
+	        android:text="1">
+	    </EditText>
+	    
+	</LinearLayout>
+	    
+	<LinearLayout 
+        android:id="@+id/Linear_5"
+    	android:layout_width="wrap_content"
+   	 	android:layout_height="wrap_content"
+   	 	android:layout_below="@+id/Linear_4"
+   	 	android:orientation="horizontal"
+   	 	android:layout_centerHorizontal="true"
+   	 	android:layout_marginTop="5dp">
+	    
+	    <TextView
+	        android:id="@+id/inner_text4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginRight="5dp"
+	        android:textColor="@color/white"
+	        android:textSize="25dp"
+	        android:text="時間(s)：" />
+	    
+	    <EditText
+	        android:id="@+id/editText2"
+	        android:layout_width="80dp"
+	        android:layout_height="wrap_content"
+	        android:singleLine="true"
+	        android:inputType="phone"
+	        android:textSize="25dp"
+	        android:text="5">
+	    </EditText>
+	    
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/Linear_6"
+    	android:layout_width="match_parent"
+   	 	android:layout_height="wrap_content"
+   	 	android:layout_below="@+id/Linear_5"
+   	 	android:layout_marginTop="5dp">
+	
+	    <Button
+	        android:id="@+id/bt_in6"
+	        android:layout_width="fill_parent"
+	        android:layout_height="90dp"
+	        android:gravity="center"
+	        android:layout_marginLeft="8dp"
+	        android:layout_marginRight="8dp"
+	        android:layout_marginBottom="8dp"
+	        android:background="@drawable/dialogue_but"
+	        android:textColor="@color/white"
+	        android:textSize="30dp"
+	        android:text="確定" />
+	</LinearLayout>
+
+</RelativeLayout>
